@@ -583,8 +583,123 @@ nav .fa-solid{
 /*-------------------------------- Media query ----------------------------------------*/
 /* /* Tablet view */
 
+@media only screen and (max-width: 480px){
+    #header{
+        margin-bottom: -180px;
+    }
+    .header-text{
+        margin-top: -450px;
+        font-size: 12px;
+    }
+    .header-text h1{
+        font-size: 19px;
 
-@media only screen and (max-width: 768px){
+    }
+    .header-text h2{
+        font-size: 12px;
+    }
+    .header-text p{
+        font-size: 7px;
+    }
+    .home{
+        height: 100vh;
+    }
+    .home-img .img-box{
+        margin-top: -400px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #3cff00;
+        position: fixed;
+        top: 0%;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul li:hover a,
+    nav ul li.active a{
+    color:white;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .sub-title{
+        font-size: 28px;
+    }
+    .row{
+        margin-top: -400px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+    .about-col-1 img{
+        height: 300px;
+        width: 200px;
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+    .work-list{
+        margin-bottom: -150px;
+    }
+    .services-list{
+        display: grid ;
+        place-items: center;
+    }
+    .services-list div h2{
+        font-size: 30px;
+    }
+    .services-list div{
+        width: 350px;
+        height: 350px;
+    }
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .container-img{
+        margin-bottom: 500px;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+    #leftButton{
+        margin-left: -35px;
+        padding: 4px;
+    }
+    #rightButton{
+        margin-right: -35px;
+        padding: 4px;
+    }
+  
+}
+@media (min-width: 481px) and (max-width: 767px){
     
     #header{
         margin-bottom: -180px;
