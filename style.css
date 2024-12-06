@@ -585,27 +585,27 @@ nav .fa-solid{
 
 @media only screen and (max-width: 480px){
     #header{
-        margin-bottom: -180px;
+        margin-bottom: 100px;
     }
     .header-text{
-        margin-top: -450px;
-        font-size: 12px;
+        margin-top: 50px;
+        font-size: 9px;
     }
     .header-text h1{
-        font-size: 19px;
+        font-size: 14px;
 
     }
     .header-text h2{
-        font-size: 12px;
+        font-size: 9px;
     }
     .header-text p{
-        font-size: 7px;
+        font-size: 6px;
     }
     .home{
         height: 100vh;
     }
     .home-img .img-box{
-        margin-top: -400px;
+        margin-top: 50px;
     }
     nav{
         display: flex;
@@ -697,6 +697,7 @@ nav .fa-solid{
         margin-right: -35px;
         padding: 4px;
     }
+    
   
 }
 @media (min-width: 481px) and (max-width: 767px){
