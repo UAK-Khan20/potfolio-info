@@ -588,15 +588,15 @@ nav .fa-solid{
         margin-bottom: 100px;
     }
     .header-text{
-        margin-top: -100px;
+        margin-top: -150px;
         font-size: 9px;
     }
     .header-text h1{
-        font-size: 14px;
+        font-size: 16px;
 
     }
     .header-text h2{
-        font-size: 12px;
+        font-size: 14px;
     }
     .header-text p{
         font-size: 8px;
@@ -605,7 +605,7 @@ nav .fa-solid{
         height: 100vh;
     }
     .home-img .img-box{
-        margin-top: -150px;
+        margin-top: -250px;
     }
     nav{
         display: flex;
