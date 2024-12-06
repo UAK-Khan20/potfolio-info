@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <title>UAK-TECH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="nav">
+                <h1 class="logo"><span>UAK-</span>KHAN</h1>
+                <ul id="sidemenu">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#certificate">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <section class="home">
+                <div class="header-text">
+                    <h1>Hi, I'm <span>USAMA</span> AYAZ</h1>
+                    <h2>I'm a
+                        <span style="--i:4;" data-tex="Amazon Specialist">Amazon Specialist</span>
+                        <span style="--i:3;" data-tex="E-commerce Specialist-TikTok Shop">E-commerce Specialist-TikTok
+                            Shop</span>
+                        <span style="--i:2;" data-tex="Front-end Developer">Front-end Developer</span>
+                        <span style="--i:1;" data-tex="Virtual Assistant">Virtual Assistant</span>
+                    </h2>
+                    <p style="color: rgb(116, 122, 116);">I specialize in Amazon Wholesale, Private Label, TikTok Shop
+                        management, Web Development, and
+                        Virtual Assistant services. With expertise in these fields, I aim to deliver high-quality
+                        solutions tailored to your business needs, ensuring efficiency and success. Let's work together
+                        to grow your online presence and achieve your goals.</p>
+                </div>
+                <div class="home-img">
+                    <div class="img-box">
+                        <div class="img-item">
+                            <img src="./pro (1).jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- ------------------------- about --------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./about.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="color: rgb(116, 122, 116)">I am a BSCS student at Karachi University (UBIT) with expertise
+                        in Amazon
+                        Wholesale, Private Label, TikTok Shop management, Web Development, and Virtual Assistant
+                        services. Combining my education and skills, I deliver tailored solutions to help your business
+                        grow efficiently.
+                    </p>
+
+                    <div class="sub-titles">
+                        <p class="tab-links active-link" style="color: rgb(255, 255, 255);" onclick="opentab('skills')">
+                            Skills</p>
+                        <p class="tab-links" style="color: rgb(255, 255, 255);" onclick="opentab('experience')">
+                            Experience</p>
+                        <p class="tab-links" style="color: rgb(255, 255, 255);" onclick="opentab('education')">Education
+                        </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Amazon</span><br>Wholesale and Private Label Specialist</li>
+                            <li><span>Web Development</span><br>Frontend Development and Responsive Design</li>
+                            <li><span>E-commerce</span><br>TikTok Shop Management and Product Optimization</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Amazon Experience</span><br>Specialized in Wholesale and Private Label (3 Months)
+                            </li>
+                            <li><span>Web Development</span><br>Frontend Development and Responsive Design (2 Months)
+                            </li>
+                            <li><span>E-commerce Expertise</span><br>TikTok Shop Management and Optimization (1 Month)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>University</span><br>BSCS - Karachi University (UBIT), Ongoing</li>
+                            <li><span>College</span><br>Intermediate in Pre-Engineering - Karachi Board</li>
+                            <li><span>School</span><br>Matriculation in Computer Science - Karachi Board</li>
+                            <li><span>Religious Education</span><br>Completed Hifz-e-Quran</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- --------------------------scervices----------------------------------- -->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <img src="./amz-icon.png" alt="">
+                    <h2>AMAZON</h2>
+                    <p>I have 3 months of experience in Amazon Wholesale and Private Label, where I have gained hands-on
+                        skills in product research, listing optimization, and market analysis. I focus on helping
+                        businesses grow by implementing effective strategies to boost visibility and sales.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <img src="./tiktokshop.jpg" alt="">
+                    <h2>Tiktok shop</h2>
+                    <p>I have 1 month of experience in managing TikTok Shops, focusing on product optimization, content
+                        creation, and driving customer engagement. I help businesses enhance their online presence and
+                        boost sales through effective TikTok strategies.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <img src="./webdev.png" alt="">
+                    <h2>Web dev</h2>
+                    <p>I have 2 months of experience in Frontend Web Development, specializing in HTML, CSS, and
+                        JavaScript. I focus on creating responsive, user-friendly websites that provide a seamless
+                        experience across devices.</p>
+                    <a href="https://potfolio-model.vercel.app/" target="_blank">learn more</a>
+                </div>
+                <div>
+                    <img src="./web-cam.png" alt="">
+                    <h2>Virtual Assistant</h2>
+                    <p>I am passionate about using my organizational skills as a Virtual Assistant, offering support in
+                        administration, customer service, and task automation to improve business efficiency.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- ---------------------Portfolio------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./amzview.jpg" alt="">
+                    <div class="layer">
+                        <h3>Amazon</h3>
+                        <p>I specialize in Amazon Wholesale and Private Label, optimizing products for growth.</p>
+                        <a href="#"><img src="./external-link.png" alt=""
+                                style="filter: brightness(0) saturate(100%) invert(71%) sepia(14%) saturate(5434%) hue-rotate(58deg) brightness(106%) contrast(122%);"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./portweb.jpg" alt="">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p>I specialize in Frontend Web Development using HTML, CSS, and JavaScript to create responsive websites.</p>
+                        <a href="https://prtfolio-lovat.vercel.app/" target="_blank"><img src="./external-link.png" alt=""
+                                style="filter: brightness(0) saturate(100%) invert(71%) sepia(14%) saturate(5434%) hue-rotate(58deg) brightness(106%) contrast(122%);"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./shoptiktok.png" alt="">
+                    <div class="layer">
+                        <h3>TikTok Shop</h3>
+                        <p>I specialize in managing TikTok Shops, optimizing products, and driving engagement.</p>
+                        <a href="#"><img src="./external-link.png" alt=""
+                                style="filter: brightness(0) saturate(100%) invert(71%) sepia(14%) saturate(5434%) hue-rotate(58deg) brightness(106%) contrast(122%);"></a>
+                    </div>
+                </div>
+                <button id="seeMoreBtn" class="seeMoreBtn">See more</button>
+                <div id="imgremove" class="imgremove" style="display: none;">
+                    <div class="work">
+                        <img src="./amzseller.jpg" alt="">
+                        <div class="layer">
+                            <h3>Virtual Assistant</h3>
+                            <p>I provide virtual assistant services, offering support in administration and task management.
+                            </p>
+                            <a href="#"><img src="./external-link.png" alt=""
+                                    style="filter: brightness(0) saturate(100%) invert(71%) sepia(14%) saturate(5434%) hue-rotate(58deg) brightness(106%) contrast(122%);"></a>
+                        </div>
+                    </div>
+                    <button id="seeLessBtn" class="seeLessBtn">See less</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- -----------------------------Certificates---------------------- -->
+    <div id="certificate">
+        <div class="container-img">
+            <h1 class="sub-title">My Certificates</h1>
+            <div class="imgContainer">
+                <img src="./amzc1.jpg" alt="Certificate 1" class="certificateimg" id="img1">
+                <img src="./webc1.jpg" alt="Certificate 2" class="certificateimg" id="img2">
+                <img src="./webc2.jpg" alt="Certificate 3" class="certificateimg" id="img3">
+                <img src="./webc3.jpg" alt="Certificate 4" class="certificateimg" id="img4">
+            </div>
+            <button class="slider-button left" id="leftButton">&#10094;</button>
+            <button class="slider-button right" id="rightButton">&#10095;</button>
+        </div>
+    </div>
+
+
+    <!-- ----------------------------contact----------------------------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>usamaayaz421@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>03164595301</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/usamakhan4900/profilecard/?igsh=MTJ6MGVrOGZrODg2cw==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/usama-khan-02b0662b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/UAK-Khan20" target="_blank"><i class="fa-brands fa-github" target="_blank"></i></i></a>
+
+                    </div>
+                    <a href="./Mycv.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" id=""></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> UsamaKhan 2024,with <i class="fa-solid fa-heart"
+                    style="color: red;"></i>
+            </p>
+            <a href="#"><i class="fa-solid fa-sort-up"></i></a>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyLYTdHVz0A62Bn8pVGKPXtdZ5HIEalO5cbbwQ25E24VqIevAdmGRNudwCR4Hbqs9N7/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let leftButton = document.getElementById("leftButton");
+            let rightButton = document.getElementById("rightButton");
+            let images = document.querySelectorAll(".certificateimg");
+            let currentIndex = 0;
+
+            // Function to update image visibility
+            function updateSlider() {
+                images.forEach((img, index) => {
+                    img.style.display = "none"; // Hide all images
+                    if (index === currentIndex) {
+                        img.style.display = "block"; // Show the current image
+                    }
+                });
+
+                // Check and update button status
+                checkButtonStatus();
+            }
+
+            // Function to check button status and color
+            function checkButtonStatus() {
+                if (currentIndex === 0) {
+                    leftButton.disabled = true; // Disable left button at the start
+                    leftButton.style.backgroundColor = "rgb(60, 82, 55)"; // Light red
+                } else {
+                    leftButton.disabled = false;
+                    leftButton.style.backgroundColor = "#3cff00"; // Enable and set color to red
+                }
+
+                if (currentIndex === images.length - 1) {
+                    rightButton.disabled = true; // Disable right button at the last image
+                    rightButton.style.backgroundColor = "rgb(60, 82, 55)"; // Light red
+                } else {
+                    rightButton.disabled = false;
+                    rightButton.style.backgroundColor = "#3cff00"; // Enable and set color to red
+                }
+            }
+
+            // Left button functionality
+            leftButton.addEventListener("click", function () {
+                if (currentIndex > 0) {
+                    currentIndex--; // Move to the previous image
+                    updateSlider();
+                }
+            });
+
+            // Right button functionality
+            rightButton.addEventListener("click", function () {
+                if (currentIndex < images.length - 1) {
+                    currentIndex++; // Move to the next image
+                    updateSlider();
+                }
+            });
+
+            // Initial setup
+            updateSlider();
+        });
+
+    </script>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
